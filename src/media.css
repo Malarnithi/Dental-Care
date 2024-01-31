@@ -1,0 +1,238 @@
+/* Styles.css */
+
+@media (max-width: 768px) {
+.menu {
+    width: 80%;
+    margin: auto;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  .navbar-brand {
+    margin-right: 15px !important;
+    font-size: 20px !important;
+  }
+
+  .nav-link {
+    margin-right: 15px;
+    color: black !important;
+  }
+  
+  .contact-btn {
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid #89DB7B;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .home {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .home-bold {
+    font-weight: 700 !important;
+    font-size: 25px !important;
+  }
+  
+  .dental {
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  
+  .book-btn {
+    border-radius: 30px;
+    font-size: 20px !important;
+    background-color: #89DB7B;
+    border: 2px solid #89DB7B;
+    padding: 15px 30px;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .subtract {
+    display: none;
+  }
+  
+  .home-division {
+    display: block;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+  .division1,
+  .division2,
+  .division3,
+  .division4 {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  .division-image {
+    margin-bottom: 20px;
+  }
+  .service-content{
+    display: block;
+    margin-top: 40px;
+  }
+  .service-head h4{
+    font-size: 20px !important;
+  }
+  .service-head h1{
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+  .service1, .service2, .service3, .service4, .service5, .service6{
+    display: block;
+    margin-bottom: 20px;
+  }
+  .Service-text { 
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: left;
+    padding: 10px;
+   }
+  .Service-image {
+     grid-area: 1 / 2 / 2 / 3;
+     margin-top: 0px;
+     }
+  .Readmore{
+    background-color: white !important;
+    border-radius: 30px;
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: none;
+    margin-top: 0px;
+    font-weight: 600;
+  }
+  .service{
+    margin-bottom: 30px;
+   }
+  .About{
+    width: 80%;
+    margin: auto;
+    padding-top: 0px; 
+    margin-bottom: 20px;
+    display: block;
+  }
+  .about-image {
+     grid-area: 1 / 1 / 2 / 2;
+     width: 100%;
+     }
+  .about-content { 
+    grid-area: 1 / 2 / 2 / 3; 
+    padding-top: 20px;
+  }
+  .about-color{
+    color: #89DB7B;
+    font-weight: 600;
+  }
+  .about-head{
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+  .about-text{
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .mission{
+    margin-top: 20px;
+  }
+  .learnmore{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+  }
+  .test-image{   
+     display: none;
+  }
+  .test-content{
+    width: 70%;
+   font-size:18px !important ;
+  }
+  .carousel-caption {
+    color: black !important;
+    margin-top: 50px;
+    font-size: 18px;
+  }
+  .Why{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .Why-image { 
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+  .Why-head{
+    margin-top: 10px;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+  .Why-text{
+    margin-top: 50px;
+    font-size: 18px;
+  }
+  .main-why {
+    margin-bottom: 20px;
+  }
+  .contact{
+    display: block;
+    }
+  .contact-form {
+     padding: 20px;
+    }
+    .free-sub{
+      background-color: #89DB7B;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -2px -2px 8px rgba(0, 0, 0, 0.2);
+    }
+  
+    .footer{
+      width: 80%;
+      margin: auto;
+      margin-top: 100px;
+    }
+    .footer-brand{
+      font-size: 25px;
+      font-weight: 700;
+    }
+    .footer-content {
+      display: block;
+      margin-bottom: 30px;
+      }
+
+      .icons{
+        margin-top: 20px;
+      }
+  
+  
+
+  }
+  
