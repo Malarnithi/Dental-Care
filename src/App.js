@@ -22,7 +22,7 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto menu-items">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/">Home1</Nav.Link>
               <Nav.Link href="/service">Services</Nav.Link>
               <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/why">Why Choose Us</Nav.Link>
