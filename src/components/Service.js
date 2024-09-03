@@ -22,8 +22,8 @@ export default function Service() {
             <button className='Readmore'>Read More</button>
           </div>
           <div className='Service-image'>
-            <img src={image11} width='70px' height='200px' alt="Teeth whitening process image 1" />
-            <img src={image1} width='40px' height='200px' alt="Teeth whitening process image 2" />
+            <img src={image11} width='70px' height='200px' alt="Teeth whitening process 1" />
+            <img src={image1} width='40px' height='200px' alt="Teeth whitening process 2" />
           </div>
         </div>
         <div className="service2"> 
@@ -43,7 +43,7 @@ export default function Service() {
             <button className='Readmore'>Read More</button>
           </div>
           <div className='Service-image'>
-            <img src={image3} height='200px' alt="Teeth filling process" />
+            <img src={image3} height='200px' alt="Teeth filling procedure" />
           </div>
         </div>
         <div className="service4">
