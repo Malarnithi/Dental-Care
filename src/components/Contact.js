@@ -36,7 +36,7 @@ export default function Contact() {
                 />
                 </Col>
                 </Row>
-                <button className='free-sub'>Get a Free Consultation <img src={arrow} width='20px' height='18px'/></button>
+                <button className='free-sub'>Get a Free Consultation <img src={arrow} width='20px' height='18px'alt="arrow"/></button>
         </div>
     </div>
   );

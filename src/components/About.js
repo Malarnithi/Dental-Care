@@ -20,7 +20,7 @@ export default function About() {
          <p>At 57Dentcare, our mission 
          is to promote optimal oral health and create lasting, confident smiles.</p>
          </div>
-         <button className='learnmore'>Learn More <img src={arrow} width='20px' height='18px'/></button>
+         <button className='learnmore'>Learn More <img src={arrow} width='20px' height='18px' alt='arrow'/></button>
       </div>
     </div>
   );

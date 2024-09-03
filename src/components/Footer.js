@@ -47,7 +47,7 @@ export default function Footer() {
             <div class="footer4">
             <h3>Newsletter</h3>
             <p>Stay Updated with our Latest News</p>
-            <input className='newsletter' placeholder='Your Email'></input><img src={arrow} />
+            <input className='newsletter' placeholder='Your Email'></input><img src={arrow} alt="arrow" />
              <div className='social-icons'>
               <h5>Follow Us</h5>
               <img src={facebook} width='24px'alt='facebook'/>
