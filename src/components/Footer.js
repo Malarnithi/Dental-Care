@@ -50,13 +50,13 @@ export default function Footer() {
             <input className='newsletter' placeholder='Your Email'></input><img src={arrow} />
              <div className='social-icons'>
               <h5>Follow Us</h5>
-              <img src={facebook} width='24px'/>
-              <img src={twitter} width='22px' />
-              <img src={youtube} width='22px' />
-              <img src={pinterest} width='22px' />
-              <img src={linkedin} width='20px' />
-              <img src={tiktok} width='20px' />
-              <img src={instagram} width='20px' />
+              <img src={facebook} width='24px'alt='facebook'/>
+              <img src={twitter} width='22px' alt='twitter'/>
+              <img src={youtube} width='22px' alt='youtube' />
+              <img src={pinterest} width='22px' alt='pinterest'/>
+              <img src={linkedin} width='20px' alt='linkedin'/>
+              <img src={tiktok} width='20px' alt='tiktok'/>
+              <img src={instagram} width='20px' alt='instagram'/>
               </div> 
              </div>
           </div>

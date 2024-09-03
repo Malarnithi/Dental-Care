@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className='About'>
       <div class="about-image"> 
-      <img src={aboutimg} width='80%' />
+      <img src={aboutimg} width='80%' alt="ABOUT DENTAL CARE"/>
       </div>
       <div class="about-content"> 
       <h4 className='about-color'>About Us</h4>

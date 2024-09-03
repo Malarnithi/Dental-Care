@@ -11,11 +11,11 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import arrow from './components/arrow.png';
-import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-      <Router>
+    <Router>
       <div>
         <Navbar className='menu' expand="lg">
           <Navbar.Brand className='brand' href="/">57<span style={{color:'#89DB7B'}}>D</span><span>entcare</span></Navbar.Brand>
@@ -29,19 +29,21 @@ function App() {
               <Nav.Link href="/test">Testimonials</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <button href="/contact" className='contact-btn'>Contact Us <img src={arrow} width='18px' height='18px'/></button>
+          <button href="/contact" className='contact-btn'>
+            Contact Us <img src={arrow} width='18px' height='18px' alt="arrow icon" />
+          </button>
         </Navbar>
         
         <Routes>
-        <Route path="/" element={<>
-          <Home />
-          <Service />
-          <About />
-          <Why />
-          <Test />
-          <Contact />
-          <Footer />
-        </>} />
+          <Route path="/" element={<>
+            <Home />
+            <Service />
+            <About />
+            <Why />
+            <Test />
+            <Contact />
+            <Footer />
+          </>} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/why" element={<Why />} />

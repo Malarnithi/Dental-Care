@@ -59,7 +59,7 @@ export default function Why() {
       </div>
       </div>
       <div class="Why-image"> 
-      <img src={why} width='100%' />
+      <img src={why} width='100%' alt="Why" />
       </div>
     </div>
   );
